@@ -1,0 +1,25 @@
+{
+  "name": "customer-support-page",
+  "version": "1.0.0",
+  "description": "A customer support page",
+  "main": "app.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "nodemon app.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/carmensalas14/customer-support-page.git"
+  },
+  "author": "Carmen Salas",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/carmensalas14/customer-support-page/issues"
+  },
+  "homepage": "https://github.com/carmensalas14/customer-support-page#readme",
+  "dependencies": {
+    "body-parser": "^1.19.0",
+    "express": "^4.17.1",
+    "path": "^0.12.7"
+  }
+}
