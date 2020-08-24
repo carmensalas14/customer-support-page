@@ -52,24 +52,129 @@ body {
 }
 
 .primary-highlight {
-  color: #2662bd;
+  color: #3579d1;
   margin: 0;
 }
 
 .primary-body {
   margin: 0;
+  font-weight: 500;
+  font-size: 12px;
 }
 
-/* FAQ Panels section */
+/* FAQ first section */
+.faq-sec-2 {
+  margin: 10px 0 30px 0;
+}
+.secondary-heading {
+  margin: 0;
+  font-size: 25px;
+}
 
+/* FAQ panels */
+.faq-section {
+  padding-top: 5%;
+  background-color: #f7f7f7;
+}
+.q-panel {
+  display: flex;
+  flex-direction: row;
+  height: 50px;
+  border-top: 2px solid #d1d1d1;
+}
+
+.panel-expand {
+  margin: 1% 15px 1% 15px;
+  border-top: 0.7px solid #d1d1d1;
+  border-radius: 50%;
+  height: 25px;
+  width: 25px;
+}
+.panel-collpase {
+  display: none;
+  padding: 1% 0 1% 0;
+  margin: 0 15px 0 15px;
+  border-top: 0.7px solid #d1d1d1;
+  border-radius: 50%;
+  height: 25px;
+  width: 25px;
+}
+
+.a-panel {
+  display: none;
+  margin: 0 0 1% 7%;
+}
+
+.secondary-highlight {
+  margin: 0;
+  padding: 1% 0 1% 0;
+  color: #3579d1;
+  font-weight: 500;
+}
+
+/* first breakpoint */
 @media (min-width: 640px) {
+  .nav {
+    padding: 0 5% 0 5%;
+  }
+  .cs-header {
+    padding: 0 10% 0 10%;
+  }
+  .faq-section {
+    padding: 5% 5% 0 5%;
+  }
+  .cs-grid-section {
+    padding: 0 5% 0 5%;
+  }
+  .faq-sec-2 {
+    display: flex;
+    justify-content: space-between;
+  }
 }
-
+/* second breakpoint - grid change */
 @media (min-width: 768px) {
+  .cs-header {
+    padding: 0 15% 0 15%;
+  }
+
+  .cs-grid-section {
+    display: grid;
+    grid-template-columns: repeat(auto-fill, minmax(300px, 1fr));
+  }
+
+  .tile {
+    width: 350px;
+  }
+  .primary-highlight {
+    color: #2662bd;
+    margin: 0;
+    font-size: 16px;
+  }
+
+  .primary-body {
+    margin: 0;
+    font-size: 14px;
+  }
+  .a-panel {
+    /* display: none; */
+    margin: 0 0 0 5%;
+  }
 }
 
 @media (min-width: 1024px) {
+  .cs-header {
+    padding: 0 28% 0 28%;
+  }
+
+  .cs-grid-section {
+    display: grid;
+    grid-template-columns: repeat(auto-fill, minmax(300px, 1fr));
+  }
 }
 
-@media (min-width: 1200px) {
+@media (min-width: 1250px) {
+  .cs-grid-section {
+    display: grid;
+    grid-template-columns: repeat(auto-fill, minmax(300px, 1fr));
+  }
 }
