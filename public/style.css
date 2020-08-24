@@ -1,0 +1,75 @@
+/* font family imported fro google fonts */
+@import url('https://fonts.googleapis.com/css2?family=Raleway:wght@300;400;500;600&display=swap');
+
+body {
+  font-family: 'Raleway', sans-serif;
+}
+
+/* customer service header */
+.cs-header {
+  text-align: center;
+}
+.nav-link {
+  font-size: 14px;
+  color: #296bce;
+}
+.current-page {
+  color: #a7a7a7;
+}
+.primary-title {
+  font-weight: 500;
+  font-size: 14px;
+  margin-top: 20px;
+}
+.primary-heading {
+  font-size: 30px;
+  margin: 10px;
+}
+.primary-subheading {
+  font-weight: 500;
+  font-size: 16px;
+  color: #a7a7a7;
+  margin-bottom: 25px;
+}
+
+/* customer service grid */
+.cs-grid-section {
+  margin: 15px 0 30px 0;
+}
+.tile {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-around;
+  margin-bottom: 20px;
+}
+
+.tile-icon {
+  margin: 0 10px 0 10px;
+}
+
+.tile-icon img {
+  height: 70px;
+}
+
+.primary-highlight {
+  color: #2662bd;
+  margin: 0;
+}
+
+.primary-body {
+  margin: 0;
+}
+
+/* FAQ Panels section */
+
+@media (min-width: 640px) {
+}
+
+@media (min-width: 768px) {
+}
+
+@media (min-width: 1024px) {
+}
+
+@media (min-width: 1200px) {
+}
