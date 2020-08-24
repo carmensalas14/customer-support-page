@@ -1,10 +1,11 @@
 const express = require('express');
-
-const app = express();
-const port = 8080;
 const bodyParser = require('body-parser');
 const path = require('path');
 const indexRouter = require('./routes/index');
+
+const app = express();
+
+const port = 8080;
 
 app.set('views', path.join(__dirname, 'views'));
 
